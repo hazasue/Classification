@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+    </head>
+    <body>
+        Welcome to my chatGPT application.
+
+        <div>
+            <form method="GET" action="/app">
+                <input type="text" name="message" id="input_message"
+                    placeholder="메세지를 입력하세요." />
+
+                <input type="submit" value="질문 요청" />
+            </form>
+        </div>
+        <div>
+            입력 요청 내용: {{msg}}
+        </div>
+    </body>
+</html>
